@@ -2,7 +2,7 @@
     width: 300px;
     display: flex;
     align-items: center;
-    background-color: rgb(252, 182, 53);
+    background-color: rgb(211, 203, 188);
     border-bottom-left-radius: 50px;
     border-top-left-radius: 50px;
 
@@ -12,9 +12,13 @@
     }
     
     img {
-    width: 100px;
-    height: 100px;
-    border-bottom-left-radius: 50px;
+    width: 70px;
+    height: 70px;
+    border-bottom-left-radius: 35px;
     object-fit: cover;
     }
+}
+
+.player-active {
+    background-color: rgb(252, 182, 53) !important;
 }
