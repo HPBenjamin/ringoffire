@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { StartScreenComponent } from './start-screen/start-screen.component';
 import { GameComponent } from './game/game.component';
 import { PlayerComponent } from './player/player.component';
+<<<<<<< HEAD
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
@@ -16,19 +17,26 @@ import { GameInfoComponent } from './game-info/game-info.component';
 import {MatCardModule} from '@angular/material/card';
 // import { AngularFireModule } from '@angular/fire';
 // import { environment } from '../environments/environment'
+=======
+>>>>>>> parent of 54d623d... player added
 
 @NgModule({
   declarations: [
     AppComponent,
     StartScreenComponent,
     GameComponent,
+<<<<<<< HEAD
     PlayerComponent,
     DialogAddPlayerComponent,
     GameInfoComponent
+=======
+    PlayerComponent
+>>>>>>> parent of 54d623d... player added
   ],
   imports: [
    // AngularFireModule.initializeApp(environment.firebase),
     BrowserModule,
+<<<<<<< HEAD
     AppRoutingModule,
     MatButtonModule,
     BrowserAnimationsModule,
@@ -38,6 +46,9 @@ import {MatCardModule} from '@angular/material/card';
     FormsModule,
     MatCardModule
     
+=======
+    AppRoutingModule
+>>>>>>> parent of 54d623d... player added
   ],
   providers: [],
   bootstrap: [AppComponent]
