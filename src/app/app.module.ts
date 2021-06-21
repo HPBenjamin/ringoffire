@@ -1,5 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of 910f94b... firebase with bugs
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StartScreenComponent } from './start-screen/start-screen.component';
@@ -15,10 +19,13 @@ import {MatInputModule} from '@angular/material/input';
 import {FormsModule} from '@angular/forms';
 import { GameInfoComponent } from './game-info/game-info.component';
 import {MatCardModule} from '@angular/material/card';
+<<<<<<< HEAD
 // import { AngularFireModule } from '@angular/fire';
 // import { environment } from '../environments/environment'
 =======
 >>>>>>> parent of 54d623d... player added
+=======
+>>>>>>> parent of 910f94b... firebase with bugs
 
 @NgModule({
   declarations: [
@@ -34,7 +41,10 @@ import {MatCardModule} from '@angular/material/card';
 >>>>>>> parent of 54d623d... player added
   ],
   imports: [
+<<<<<<< HEAD
    // AngularFireModule.initializeApp(environment.firebase),
+=======
+>>>>>>> parent of 910f94b... firebase with bugs
     BrowserModule,
 <<<<<<< HEAD
     AppRoutingModule,

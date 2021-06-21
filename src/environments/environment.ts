@@ -3,8 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
+<<<<<<< HEAD
   production: false,
  
+=======
+  production: false
+>>>>>>> parent of 910f94b... firebase with bugs
 };
 
 /*
